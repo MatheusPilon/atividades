@@ -1,0 +1,12 @@
+public class Fila{
+
+    private static Fila uniqueInstance = new Fila();
+    
+    private Fila(){
+    }
+
+    public static Fila getInstance(){
+        return uniqueInstance;
+    } 
+    
+}
